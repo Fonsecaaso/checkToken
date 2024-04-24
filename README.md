@@ -12,3 +12,5 @@ curl --location 'localhost:8080' \
     "jwt":"eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJTZWVkIjoiNzg0MSIsIk5hbWUiOiJUb25pbmhvIEFyYXVqbyJ9.QY05sIjtrcJnP533kQNk8QXcaleJ1Q01jWY_ZzIZuAg"
 }'
 ```
+
+A respeito da implementação a classe CheckTokenController é responsável por expor o endpoint da aplicação e a classe CheckTokenService implementa as lógicas de validação.
